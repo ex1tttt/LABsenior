@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pl" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.setAttribute('data-theme', localStorage.getItem('labemergency-theme') || 'light');</script>
+  <title>LABsenior – opis na stronę</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0%25' stop-color='%23FF8C42'/><stop offset='100%25' stop-color='%23FFB347'/></linearGradient></defs><rect width='100' height='100' rx='22' fill='url(%23g)'/><text x='50' y='68' font-family='system-ui,sans-serif' font-size='52' font-weight='800' text-anchor='middle' fill='white'>LS</text></svg>" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">LAB<span>senior</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">Opis programu</a></li>
+          <li><a href="#ecosystem">Miejsce w ekosystemie</a></li>
+          <li><a href="#areas">Główne obszary</a></li>
+          <li><a href="#business">Dla kogo</a></li>
+          <li><a href="#format">Forma</a></li>
+          <li><a href="#mission">Inicjatywy</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Zmień motyw">
+        <svg class="t-icon t-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="t-icon t-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button class="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">Program edukacyjny dla 50+</div>
+      <h1>LABsenior – kompetencje przyszłości dla osób 50+</h1>
+      <p class="hero-lead">
+        Program wspierający rozwój kompetencji cyfrowych, bezpieczeństwa informacyjnego oraz
+adaptacji do zmieniającego się rynku pracy. LABsenior pomaga osobom 50+ świadomie
+funkcjonować w świecie technologii, sztucznej inteligencji i informacji.
+      </p>
+      <div class="hero-cta">
+        <a href="#about" class="btn btn-primary">Poznaj program</a>
+        <a href="#areas" class="btn btn-outline">Główne obszary</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <section class="section section-light" id="about">
+    <div class="container">
+      <div class="about-two-col">
+        <div class="about-left">
+          <div class="section-header">
+            <h2>Opis programu</h2>
+          </div>
+          <p class="about-tagline"><strong>Kompetencje. Projekty. Odkrywanie Siebie.</strong></p>
+          <p class="about-desc">
+            LABsenior to program edukacyjny rozwijający kompetencje cyfrowe i społeczne osób w
+weku 50+, których doświadczenie zawodowe i życiowe stanowi ogromną wartość dla
+rynku pracy oraz społeczeństwa. Program pomaga uczestnikom lepiej rozumieć
+współczesny świat technologii, sztucznej inteligencji oraz cyfrowej komunikacji.
+          </p>
+          <p class="about-desc">
+            W ramach warsztatów uczestnicy uczą się korzystania z narzędzi cyfrowych, poznają
+mechanizmy działania sztucznej inteligencji oraz zdobywają wiedzę dotyczącą
+bezpieczeństwa w internecie. Program wspiera również rozwój kompetencji adaptacyjnych,
+które pomagają odnaleźć się w dynamicznie zmieniającej się rzeczywistości zawodowej i
+społecznej.
+          </p>
+        </div>
+        <div class="about-right">
+          <div class="about-photo-card">
+            <div class="about-photo-inner">
+            <div class="about-photo-icon">👩‍💻</div>
+            <div class="about-photo-icon">👨‍💼</div>
+            </div>
+            <div class="about-photo-badge">12 spotkań · 4 sezony</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="ecosystem">
+    <div class="container">
+      <div class="section-header">
+        <h2>Rola programu w ekosystemie LAB</h2>
+      </div>
+      <p class="mission-lead">
+        LABsenior jest częścią ekosystemu LAB rozwijającego kompetencje przyszłości w różnych
+obszarach życia społecznego. Program uzupełnia działania skierowane do młodzieży i
+młodych dorosłych, tworząc przestrzeń współpracy międzypokoleniowej oraz wspólnego
+rozwoju kompetencji potrzebnych we współczesnym świecie.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-light" id="areas">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Curriculum</span>
+        <h2>Główne obszary programu</h2>
+      </div>
+      <div class="areas-grid">
+
+        <div class="area-card">
+          <div class="area-number">01</div>
+          <div class="area-icon">🚨</div>
+          <h3>Zarządzanie kryzysowe</h3>
+          <p>
+            Uczestnicy poznają podstawy analizy zagrożeń, podejmowania
+decyzji oraz organizacji działań w sytuacjach kryzysowych.
+          </p>
+        </div>
+
+        <div class="area-card">
+          <div class="area-number">02</div>
+          <div class="area-icon">📢</div>
+          <h3>Komunikacja kryzysowa</h3>
+          <p>
+            Nauka przekazywania informacji w sytuacjach stresowych,
+pracy z informacją oraz przeciwdziałania dezinformacji.
+          </p>
+        </div>
+
+        <div class="area-card">
+          <div class="area-number">03</div>
+          <div class="area-icon">🩹</div>
+          <h3>Podstawy ratownictwa medycznego</h3>
+          <p>
+            Praktyczna nauka pierwszej pomocy i reagowania
+w sytuacjach zagrożenia zdrowia lub życia.
+          </p>
+        </div>
+
+        <div class="area-card">
+          <div class="area-number">04</div>
+          <div class="area-icon">🛡️</div>
+          <h3>Podstawy bezpieczeństwa obywatelskiego</h3>
+          <p>
+            Zrozumienie systemu bezpieczeństwa
+państwa oraz roli instytucji publicznych.
+          </p>
+        </div>
+
+        <div class="area-card">
+          <div class="area-number">05</div>
+          <div class="area-icon">🧘</div>
+          <h3>Odporność psychiczna</h3>
+          <p>
+            Rozwijanie umiejętności radzenia sobie ze stresem i
+podejmowania decyzji pod presją.
+          </p>
+        </div>
+
+        <div class="area-card">
+          <div class="area-number">06</div>
+          <div class="area-icon">🤝</div>
+          <h3>Praca pozytywistyczna</h3>
+          <p>
+            Kształtowanie odpowiedzialności społecznej oraz gotowości do
+działania na rzecz wspólnoty.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-accent" id="format">
+    <div class="container">
+      <div class="section-header section-header-light">
+        <span class="section-tag section-tag-light">Struktura</span>
+        <h2>Forma programu</h2>
+      </div>
+      <div class="format-content">
+        <div class="format-text">
+          <p>
+            LABemergency realizowany jest w formie <strong>warsztatów kryzysowych</strong> łączących pracę projektową, symulacje sytuacji kryzysowych oraz praktyczne ćwiczenia.
+          </p>
+          <p>
+            Uczestnicy kończą program z konkretnymi efektami pracy – <strong>umiejętnościami reagowania</strong> oraz rozwiniętymi kompetencjami kryzysowymi.
+          </p>
+        </div>
+        <div class="format-outcomes">
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Warsztaty praktyczne</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Praca projektowa w zespołach</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Symulacje kryzysowe</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Pierwsza pomoc</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Odporność psychiczna</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-light" id="business">
+    <div class="container">
+      <div class="audience-grid">
+        <div class="audience-left">
+          <div class="section-header">
+            <h2>Dla kogo?</h2>
+          </div>
+          <p class="audience-lead">LABemergency jest skierowany do:</p>
+          <ul class="audience-list">
+            <li>
+              <div class="audience-icon">👨‍🎓</div>
+              <div class="audience-item-text">
+                <strong>Uczniów</strong>
+                <p>szkół ponadpodstawowych (liceum, technikum)</p>
+              </div>
+            </li>
+            <li>
+              <div class="audience-icon">🎓</div>
+              <div class="audience-item-text">
+                <strong>Studentów</strong>
+                <p>wszystkich kierunków zainteresowanych bezpieczeństwem</p>
+              </div>
+            </li>
+            <li>
+              <div class="audience-icon">👩‍🏫</div>
+              <div class="audience-item-text">
+                <strong>Nauczycieli &amp; Wychowawców</strong>
+                <p>którzy chcą rozwijać kompetencje kryzysowe uczniów</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="audience-right">
+          <div class="promo-card">
+            <div class="promo-card-logo">LAB<strong>emergency</strong></div>
+            <div class="promo-card-meta">
+              <span>12 spotkań</span>
+              <span class="promo-dot">&bull;</span>
+              <span>4 sezony</span>
+              <span class="promo-dot">&bull;</span>
+              <span>50 miesięcy</span>
+            </div>
+            <div class="promo-card-divider"></div>
+            <div class="promo-card-join">Zapraszamy!</div>
+            <div class="promo-card-sub">Kompetencje dla młodych</div>
+            <div class="promo-card-partners">
+              <span>🎓 SzkOły</span>
+              <span>🏥 Organizacje</span>
+              <span>🧑‍⚕️ Eksperci</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-accent" id="mission">
+    <div class="container">
+      <div class="section-header" style="text-align:center;">
+        <h2>Nasze inicjatywy</h2>
+      </div>
+      <div class="initiatives-grid">
+        <div class="initiative-card">
+          <div class="initiative-icon">🚨</div>
+          <h3>Dni Otwarte LABemergency</h3>
+          <p>Spotkania informacyjne i inspiracyjne dla szkół, firm i rodziców zainteresowanych programem.</p>
+        </div>
+        <div class="initiative-card">
+          <div class="initiative-icon">📢</div>
+          <h3>Sezony rozwojowe</h3>
+          <p>Roczny cykl 12 warsztatów podzielonych na cztery sezony tematyczne gromadzące wiedzę.</p>
+        </div>
+        <div class="initiative-card">
+          <div class="initiative-icon">🛟</div>
+          <h3>Obozy kryzysowe</h3>
+          <p>Wyjazdy edukacyjne łączące wiedzę teoretyczną z praktycznym doświadczeniem w sytuacjach kryzysowych.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-firm">
+        <div class="footer-firm-col">
+          <h4 class="footer-firm-title">Dane firmy</h4>
+          <p>LABemergency &ndash; Kompetencje działania w sytuacjach kryzysowych Sp.j.</p>
+          <p>18-400 Łomża, ul. Księcia Janusza 1 lokal 33</p>
+          <p class="footer-firm-nip">NIP:&nbsp;PL7182135300 &nbsp;&nbsp;&nbsp;&nbsp;REGON:&nbsp;200652950</p>
+        </div>
+        <div class="footer-firm-col">
+          <h4 class="footer-firm-title">Dane kontaktowe</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.07 6.07l.87-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+48 570 800 890</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="https://mail.google.com/mail/?view=cm&amp;to=zapisy@labemergency.pl" target="_blank" rel="noopener noreferrer" class="footer-email-link">zapisy@labemergency.pl</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Pon. &ndash; Pt. 8:00 &ndash; 16:00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 LABemergency &ndash; Kompetencje działania w sytuacjach kryzysowych. Wszelkie prawa zastrzeżone.</p>
+        <a href="#" class="footer-policy-link">Polityka prywatności</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
